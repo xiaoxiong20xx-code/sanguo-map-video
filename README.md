@@ -23,9 +23,9 @@
 
 ```bash
 # Claude Code
-git clone https://github.com/<你的用户名>/sanguo-map-video ~/.claude/skills/sanguo-map-video
+git clone https://github.com/xiaoxiong20xx-code/sanguo-map-video ~/.claude/skills/sanguo-map-video
 # Codex
-git clone https://github.com/<你的用户名>/sanguo-map-video ~/.codex/skills/sanguo-map-video
+git clone https://github.com/xiaoxiong20xx-code/sanguo-map-video ~/.codex/skills/sanguo-map-video
 ```
 
 然后直接对 AI 说：
