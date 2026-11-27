@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+.runtime/
+out/
+dist/
+.local/
+content/history/
+data/
+dev/

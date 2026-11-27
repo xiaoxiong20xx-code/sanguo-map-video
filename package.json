@@ -1,0 +1,28 @@
+{
+  "name": "sanguo-map-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "三国地图动画工具包：口播文案 → 横屏地图讲解视频（Remotion）",
+  "type": "module",
+  "scripts": {
+    "make": "node scripts/make.mjs",
+    "check": "node scripts/make.mjs --check-only",
+    "preview": "node scripts/make.mjs --no-video",
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/setup.mjs --check",
+    "studio": "remotion studio src/index.ts",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.538",
+    "@remotion/cli": "^4.0.538",
+    "@remotion/renderer": "^4.0.538",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
